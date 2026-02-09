@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_c"
+    tools:context=".Feedback">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="feedbackUser.json"
+        app:lottie_loop="true" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/feedback"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/_40sdp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="FEEDBACK"-->
+<!--        android:textColor="@color/purple"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:textSize="20dp"
+        android:textColor="@color/royalblue"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Rate Us"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_marginTop="-88dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="feedback_user.json"
+        app:lottie_loop="true" />
+<!--    <RatingBar-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:numStars="5"-->
+<!--        android:id="@+id/rating"-->
+<!--        />-->
+
+    <TextView
+        android:layout_marginTop="-80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="How did we do?"
+        />
+
+    <EditText
+        android:gravity="start"
+        android:hint="Type Feedback..."
+        android:id="@+id/review"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_width="400dp"
+        android:layout_height="318dp"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="SUBMIT FEEDBACK"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/submit_feedback"
+        android:textSize="15dp"
+        android:background="@drawable/button_radius"
+   />
+</LinearLayout>

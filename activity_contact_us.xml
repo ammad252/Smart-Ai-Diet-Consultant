@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contus"
+    tools:context=".contactUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mail"
+            android:layout_marginLeft="@dimen/_70sdp"
+            />
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_9sdp"
+            android:text="Sp19-BCs-054@cuiatk.edu.pk"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:src="@drawable/mail"
+            android:layout_marginLeft="@dimen/_70sdp"
+            />
+        <TextView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_9sdp"
+            android:text="Sp19-BCs-061@cuiatk.edu.pk"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location"
+            android:layout_marginLeft="@dimen/_70sdp"
+            />
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="Comsats University Islamabad"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:text="Attock Campus"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

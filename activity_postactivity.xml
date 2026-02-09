@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Postactivity"
+    android:background="@drawable/bg_c"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:gravity="start"
+        android:maxLines="250"
+        android:singleLine="false"
+        android:inputType="textMultiLine"
+        android:isScrollContainer="true"
+        android:hint="Publish Post..."
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:background="@drawable/pst"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn_report"
+        android:background="@drawable/button_radius"
+        android:text="Upload Post"/>
+</LinearLayout>

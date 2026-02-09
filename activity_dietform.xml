@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gender"
+    android:textStyle="bold"
+
+    >
+
+</TextView>
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (pound)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (inches)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Diabetes"
+     android:textStyle="bold"
+     />
+    <RadioGroup
+
+        android:id="@+id/radioGroupDiabetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+
+    </RadioGroup>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Goal"></TextView>
+    <RadioGroup
+        android:id="@+id/radioGroupGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonGain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gain"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonLoss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loss"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonHealthy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonPredict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict Diet"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Prediction Result:"
+        android:textStyle="bold"/>
+
+</LinearLayout>

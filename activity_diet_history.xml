@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_c"
+    android:fillViewport="false">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/Email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+        <TableRow android:background="#51B435" android:padding="10dp">
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Goal"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Breakfast "
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Lunch"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dinner"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Snacks"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow android:background="#F0F7F7" android:padding="5dp">
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="11/7/22" />
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Healthy Diet" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2 Boil Eggs,
+                Cup of milk,
+                1 Roti" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Roti 1,
+                1 plate chicken,
+                150gm shake" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 Plate Salan(any),
+                1 Roti,
+                200gm chicken breast,
+                2 bananas" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="150gm Patotas,
+                Milk Shake,
+                Beans" />
+        </TableRow>
+        <TableRow android:background="#F0F7F7" android:padding="5dp">
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="22/8/22" />
+            <TextView
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Weight Lose" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 boil eggs(whole/white),
+                Brown bread(Suger free)" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 cup Soop(vegi),
+                Salaad" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 Roti,
+                1 Salan(any),
+                Green Tea(suger free)" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fruits,
+                Dry-fruits" />
+        </TableRow>
+        <TableRow android:background="#F0F7F7" android:padding="5dp">
+            <TextView
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="31/9/22" />
+            <TextView
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Weight Gain" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 Roti,
+                3 Boil Eggs,
+                Cup of tea"
+                 />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Roti 2,
+                1.5 palte chicken,
+                150gm protine shake" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1 plate rice,
+                200gm chicken breast,
+                3 bnanas" />
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="150gm Patotas,
+                Milk Shake" />
+        </TableRow>
+
+<!--        <TableRow android:background="#F0F7F7" android:padding="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="3dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="4" />-->
+<!--            <TextView-->
+<!--                android:layout_width="7dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Weight Gain" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="1 Roti,-->
+<!--                3 Boil Eggs,-->
+<!--                Cup of tea"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Roti 2,-->
+<!--                1.5 palte chicken,-->
+<!--                150gm protine shake" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="1 plate rice,-->
+<!--                200gm chicken breast,-->
+<!--                3 bnanas" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="150gm Patotas,-->
+<!--                Milk Shake" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow android:background="#F0F7F7" android:padding="5dp">-->
+<!--            <TextView-->
+<!--                android:layout_width="3dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="5" />-->
+<!--            <TextView-->
+<!--                android:layout_width="7dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Weight Gain" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="1 Roti,-->
+<!--                3 Boil Eggs,-->
+<!--                Cup of tea"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Roti 2,-->
+<!--                1.5 palte chicken,-->
+<!--                150gm protine shake" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="1 plate rice,-->
+<!--                200gm chicken breast,-->
+<!--                3 bnanas" />-->
+<!--            <TextView-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="150gm Patotas,-->
+<!--                Milk Shake" />-->
+<!--        </TableRow>-->
+
+<!--    <TableRow android:background="#F0F7F7" android:padding="5dp">-->
+<!--        <TextView-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="6" />-->
+<!--        <TextView-->
+<!--            android:layout_width="7dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Weight Gain" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="1 Roti,-->
+<!--                3 Boil Eggs,-->
+<!--                Cup of tea"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Roti 2,-->
+<!--                1.5 palte chicken,-->
+<!--                150gm protine shake" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="1 plate rice,-->
+<!--                200gm chicken breast,-->
+<!--                3 bnanas" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="150gm Patotas,-->
+<!--                Milk Shake" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow android:background="#F0F7F7" android:padding="5dp">-->
+<!--        <TextView-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="3" />-->
+<!--        <TextView-->
+<!--            android:layout_width="7dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Weight Gain" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="1 Roti,-->
+<!--                3 Boil Eggs,-->
+<!--                Cup of tea"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Roti 2,-->
+<!--                1.5 palte chicken,-->
+<!--                150gm protine shake" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="1 plate rice,-->
+<!--                200gm chicken breast,-->
+<!--                3 bnanas" />-->
+<!--        <TextView-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="150gm Patotas,-->
+<!--                Milk Shake" />-->
+<!--    </TableRow>-->
+</TableLayout>
+</ScrollView>
