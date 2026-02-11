@@ -10,7 +10,9 @@ Password minimum 8 characters with letters & numbers
 
 <img src="login.jpg" width="100" height="200"/>
 <br>
- ## **User Dashboard**
+<br>
+
+## **User Dashboard**
 
 Once logged in, user sees:
 
@@ -28,6 +30,7 @@ Once logged in, user sees:
 <img src="dietform.jpg" width="100" height="200"/>
 <br>
 <img src="dietpred.jpg" width="100" height="200"/>
+
 
 
 ## **Admin Dashboard**
