@@ -12,7 +12,6 @@ Password minimum 8 characters with letters & numbers
 <br>
 ### User Dashboard
 Once logged in, user sees:
-
 Personal diet plan and AI recommendations
 Diet history and nutrition
 Healthy posts, daily meals, and profile management
@@ -32,9 +31,6 @@ Create healthy posts and announcements
 View feedback from users
 <br>
 <img src="signup.jpg" width="100" height="200"/>
-
 <img src="add nutrition.jpg" width="100" height="200"/>
-<br>
-
 <img src="viewdoc.jpg" width="100" height="200"/>
 <img src="viewfeedback.jpg" width="100" height="200"/>
