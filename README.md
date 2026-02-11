@@ -4,3 +4,14 @@ Smart AI Diet Consultant(FYP Project) Android Application | AI-based Diet Recomm
 <img src="diet history.jpg" width="100" height="200"/>
 <br>
 <img src="dietform.jpg" width="100" height="200" />
+<br>
+<img src="dietpred.jpg" width="100" height="200"/>
+<br>
+<img src="aboutus.jpg" width="100" height="200" />
+<br>
+<img src="add nutrition.jpg" width="100" height="200"/>
+<br>
+<img src="dietform.jpg" width="100" height="200" />
+<br>
+<img src="signup.jpg" width="100" height="200"/>
+
