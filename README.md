@@ -10,7 +10,8 @@ Password minimum 8 characters with letters & numbers
 
 <img src="login.jpg" width="100" height="200"/>
 <br>
-## User Dashboard
+## **User Dashboard**
+
 <br>
 Once logged in, user sees:
 Personal diet plan and AI recommendations
@@ -23,7 +24,10 @@ Feedback submission and interactive diet forms
 <img src="dietform.jpg" width="100" height="200" />
 <img src="dietpred.jpg" width="100" height="200"/>
 <br>
-## Admin Dashboard
+<br>
+
+## **Admin Dashboard**
+
 <br>
 Admin can manage users and app content:
 user diet history
