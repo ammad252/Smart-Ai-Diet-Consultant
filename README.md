@@ -10,21 +10,25 @@ Password minimum 8 characters with letters & numbers
 
 <img src="login.jpg" width="100" height="200"/>
 <br>
-## **User Dashboard**
+ ## **User Dashboard**
+
+Once logged in, user sees:
+
+- Personal diet plan and AI recommendations  
+- Diet history and nutrition  
+- Healthy posts, daily meals, and profile management  
+- Feedback submission and interactive diet forms  
 
 <br>
-Once logged in, user sees:
-Personal diet plan and AI recommendations
-Diet history and nutrition
-Healthy posts, daily meals, and profile management
-Feedback submission and interactive diet forms
-<br>
+
 <img src="navbar.jpg" width="100" height="200"/>
+<br>
 <img src="diet history.jpg" width="100" height="200"/>
-<img src="dietform.jpg" width="100" height="200" />
+<br>
+<img src="dietform.jpg" width="100" height="200"/>
+<br>
 <img src="dietpred.jpg" width="100" height="200"/>
-<br>
-<br>
+
 
 ## **Admin Dashboard**
 
